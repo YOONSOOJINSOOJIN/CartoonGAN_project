@@ -18,6 +18,9 @@ GAN에 대해 모르는 부분은 질문지에 정리하여 서로 묻고 답하
 > cartoonGAN과 Flask를 활용해 찍은 사진을 지브리 스튜디오의 애니메이션의 한 장면처럼 바꿔주는 웹앱을 만들고 있습니다.
 
 
+<img src="https://user-images.githubusercontent.com/18055781/121481526-2f2d1e80-ca07-11eb-95ef-f488ba378236.gif">
+
+
 
 <img src="https://user-images.githubusercontent.com/18055781/121298617-249f5600-c92f-11eb-9796-86292c7e7b2f.png">
 
