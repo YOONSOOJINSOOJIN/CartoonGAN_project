@@ -22,7 +22,7 @@ GAN에 대해 모르는 부분은 질문지에 정리하여 서로 묻고 답하
 
 <img src="https://user-images.githubusercontent.com/18055781/121482757-63eda580-ca08-11eb-8111-8b5a6f8ec290.gif">
 
-
+------------------------------
 
 <img src="https://user-images.githubusercontent.com/18055781/121298617-249f5600-c92f-11eb-9796-86292c7e7b2f.png">
 
