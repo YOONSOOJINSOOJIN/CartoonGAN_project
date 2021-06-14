@@ -37,4 +37,23 @@ GAN에 대해 모르는 부분은 질문지에 정리하여 서로 묻고 답하
 
 <img src="https://user-images.githubusercontent.com/18055781/121298617-249f5600-c92f-11eb-9796-86292c7e7b2f.png">
 
+------------------------------
 
+<img src = "https://user-images.githubusercontent.com/18055781/121920646-35a6f780-cd73-11eb-9983-b29b6eb2d394.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920645-35a6f780-cd73-11eb-96e3-36529b943b83.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920642-350e6100-cd73-11eb-9a68-f4937804d085.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920641-3475ca80-cd73-11eb-8d6a-9c74d2619ee7.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920638-3475ca80-cd73-11eb-8846-d2642c71e4cf.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920635-33dd3400-cd73-11eb-93b4-bdc50be70b59.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920631-33449d80-cd73-11eb-88b7-6aff14a50c02.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920625-32ac0700-cd73-11eb-967e-c4d9118051b5.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920623-32ac0700-cd73-11eb-8a09-f5f57a495683.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920621-32137080-cd73-11eb-8e55-e6f48afd1127.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920933-7bfc5680-cd73-11eb-8310-db6624e4480a.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920951-80287400-cd73-11eb-8c34-796864aa2d3b.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920607-3049ad00-cd73-11eb-9a3d-e02e4011ac11.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920605-2fb11680-cd73-11eb-8ebc-9dccfe750217.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121921020-946c7100-cd73-11eb-89ab-f3433009c054.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121921035-97676180-cd73-11eb-917e-d95a384e9bed.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121920589-2cb62600-cd73-11eb-83cd-21aba9b6d089.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121921184-bc5bd480-cd73-11eb-8566-79abf192cc8c.jpeg">
