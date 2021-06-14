@@ -1,0 +1,184 @@
+<html>
+<head>
+  <title id = 'title'>Image upload</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+  <style>
+  		* {
+        font-family: 'Noto Serif KR', serif;
+      	}
+		.title{
+			display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	min-height: 50vh;
+		}
+		.page_title {
+			text-align: center;
+		
+		}
+
+		.filebox label {
+			text-align: center;
+  			display: inline-block;
+  			padding: .5em .75em;
+  			color: #fff;
+  			font-size: inherit;
+  			line-height: normal;
+  			vertical-align: middle;
+  			background-color: #5cb85c;
+  			cursor: pointer;
+  			border: 1px solid #4cae4c;
+  			border-radius: .25em;
+  			-webkit-transition: background-color 0.2s;
+  			transition: background-color 0.2s;
+  			
+		}
+
+		.filebox label:hover {
+  			background-color: #6ed36e;
+		}
+
+		.filebox label:active {
+  			background-color: #367c36;
+		}
+
+		.filebox input[type="file"] {
+  			position: absolute;
+  			width: 1px;
+  			height: 1px;
+  			padding: 0;
+  			margin: -1px;
+  			overflow: hidden;
+  			clip: rect(0, 0, 0, 0);
+  			border: 0;
+		}
+
+		.filebox .upload-thumb-wrap { /* 추가될 이미지를 감싸는 요소 */ 
+			display: inline-block;
+			width: 54px;
+			padding: 2px;
+			vertical-align: middle; 
+			border: 1px solid #ddd; 
+			border-radius: 5px; 
+			background-color: #fff; 
+		}
+
+		.mycartoon {
+			text-align: center;
+			display: inline-block;
+  			padding: .5em .75em;
+  			color: #fff;
+  			font-size: inherit;
+  			line-height: normal;
+  			vertical-align: middle;
+  			background-color: #5cb85c;
+  			cursor: pointer;
+  			border: 1px solid #4cae4c;
+  			border-radius: .25em;
+  			-webkit-transition: background-color 0.2s;
+  			transition: background-color 0.2s;
+		}
+		.mycartoon:hover {
+			background-color: #6ed36e;
+		}
+		.mycartoon:active {
+			background-color: #367c36;
+		}
+		.filebox {
+			float: left;
+    		width:40%;
+    		box-sizing: border-box;
+		}
+		.cartoonbox {
+			float: right;
+    		width:40%;
+    		box-sizing: border-box;
+		}
+		.ing {
+			float: left;
+    		width:20%;
+    		box-sizing: border-box;
+		}
+		.photo_ment {
+
+			text-align: center;
+		}
+		.cartoon_ment {
+			text-align: center;
+		}
+		.ing {
+			margin-top: 170px;
+		}
+		.click {
+			margin-top: -10px;
+		}
+		.check {
+			margin-bottom: -20px;
+			margin-left: 20px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class='page_title'>
+		<h1><strong>Cartoonizer your photo</strong></h1>
+	</div>
+
+<form method="POST"
+	enctype="multipart/form-data"
+	action = "{{ url_for ('upload_files') }}">
+	
+	<div class="filebox" style="text-align: center">
+		<h3 class="photo_ment">사진을 자유롭게 골라 보세요!</h2>
+		<div class="preview_image" id="image_container" style="padding: 20px" >
+			<input type="file" name="file" value="file" id="ex_file" accept="ex_file/*" onchange="setThumbnail(event);" />
+			<img src={{url_for("static", filename = photo)}}>
+		</div>
+		<label class="upload_button" for="ex_file">업로드</label>
+		<input type="image" src="{{ url_for('static', filename = 'img/check.png')}}" name="submit" value="submit" onclick="confirm()" class="check" width="50px" height="50px";>
+		</br>
+	</div>
+	
+	<div class="ing" style="text-align: center">
+		<input type="image" src="{{ url_for('static', filename='img/->.png')}}" align="absmiddle" onclick="test()" width="100px" height="70px";>
+		<p class="click" type = 'submit'>click!</p>
+		
+	</div>
+	<div class="cartoonbox" style="text-align: center">
+		<h3 class="cartoon_ment">만화화된 결과를 만나보세요!</h2>
+		<div class= "preview_cartoon" id="cartoon_container" name = "convert_file" style="padding: 20px">
+			<img src={{url_for('cartoonize', filename = cartoon_photo)}}>
+		</div>
+		<a href="#" class="mycartoon" style="text-decoration:none" download>다운로드</a>
+	</div>
+</form>
+<script>
+	function setThumbnail(event) { 
+		var reader = new FileReader(); 
+
+		reader.onload = function(event) { 
+			var img = document.createElement("img");
+			img.setAttribute("src", event.target.result);
+			document.querySelector("div#image_container").appendChild(img);
+		}; 
+
+		reader.readAsDataURL(event.target.files[0]); 
+	}
+	function test(){ 
+        alert("변환을 시작합니다. 잠시만 기다려주세요~!");
+
+    }
+    function confirm(){
+    	alert('이미지 업로드 성공!');
+    }
+
+</script>
+
+</body>
+<header>
+	
+</header>
+
+</html>
