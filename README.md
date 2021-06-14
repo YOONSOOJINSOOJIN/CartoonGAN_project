@@ -15,6 +15,19 @@ GAN에 대해 모르는 부분은 질문지에 정리하여 서로 묻고 답하
 ------------------------------
 
 ## 🖼 CartoonGAN을 활용한 일상 사진의 만화화 프로젝트
+
+> 결과
+
+<img src = "https://user-images.githubusercontent.com/18055781/121912204-5c613000-cd6b-11eb-80c4-7fe4cdc030e2.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121912271-6a16b580-cd6b-11eb-962f-f154a5c0a890.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121912287-6e42d300-cd6b-11eb-9939-b71b96574426.jpeg">
+<img src = "https://user-images.githubusercontent.com/18055781/121912296-6f740000-cd6b-11eb-865a-3d6ec4a6e14c.jpeg">
+
+
+
+
+
+
 > cartoonGAN과 Flask를 활용해 찍은 사진을 지브리 스튜디오의 애니메이션의 한 장면처럼 바꿔주는 웹앱을 만들고 있습니다.
 
 
